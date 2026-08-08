@@ -321,37 +321,6 @@ The complete ReID implementation is not publicly available. This includes the co
 
 This keeps the public repository useful for understanding the detection and tracking system without exposing restricted research code.
 
----
-
-## Repository Structure
-
-```text
-Maritime-Vessel-Detection/
-│
-├── detection/
-│   ├── training/
-│   ├── image_inference/
-│   └── video_inference/
-│
-├── tracking/
-│   ├── bytetrack/
-│   └── botsort/
-│
-├── anomaly_detection/
-│   └── anomaly_detection.ipynb
-│
-├── re_identification/
-│   └── README.md
-│
-├── data/
-│   └── data.yaml
-│
-├── weights/
-│   └── best.pt
-│
-├── requirements.txt
-│
-└── README.md
 ```
 
 The `re_identification` directory can contain documentation describing the research approach without exposing the restricted implementation.
